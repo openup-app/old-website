@@ -14,15 +14,15 @@ const RESOURCES = {
 "assets/AssetManifest.json": "db4027d37e38dffcbf1e26de8e37ba80",
 "assets/fonts/MaterialIcons-Regular.otf": "7e7a6cccddf6d7b20012a548461d5d81",
 "favicon.png": "55e5599917d66336ff747f702e65e2d3",
-"index.html": "4f5b789e599ba75102fe740698249ecd",
-"/": "4f5b789e599ba75102fe740698249ecd",
+"index.html": "8adf3d6b5bcb858035d36b11c6018ded",
+"/": "8adf3d6b5bcb858035d36b11c6018ded",
 "icons/Icon-maskable-512.png": "301a7604d45b3e739efc881eb04896ea",
 "icons/Icon-maskable-192.png": "c457ef57daa1d16f64b27b786ec2ea3c",
 "icons/Icon-192.png": "ac9a721a12bbc803b44f645561ecb1e1",
 "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
 "manifest.json": "4c2403aa9e7ebb3a957285d366a5876a",
 "version.json": "7f6ddeda8062518f22a05f205da69771",
-"main.dart.js": "ceb7596c32ebfc645a67127ed6a02723"
+"main.dart.js": "7efa5af4ba448ca665017389378efb13"
 };
 
 // The application shell files that are downloaded before a service worker can
