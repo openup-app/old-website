@@ -1,11 +1,11 @@
 {
-    "name": "contract_openup_website",
-    "short_name": "contract_openup_website",
+    "name": "Openup": Make Friends,
+    "short_name": "Openup",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
     "theme_color": "#0175C2",
-    "description": "A new Flutter project.",
+    "description": "Make friends near you!",
     "orientation": "portrait-primary",
     "prefer_related_applications": false,
     "icons": [
