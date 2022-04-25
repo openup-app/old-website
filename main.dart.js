@@ -9281,8 +9281,9 @@ _.c=0},
 amJ(){return new A.t6(new A.Ta(),A.v(t.K,t.Qu))},
 FT:function FT(a,b){this.a=a
 this.b=b},
-tQ:function tQ(a,b){this.e=a
-this.a=b},
+tQ:function tQ(a,b,c){this.e=a
+this.dy=b
+this.a=c},
 Ta:function Ta(){},
 Te:function Te(){},
 x_:function x_(a){var _=this
@@ -39154,11 +39155,11 @@ o=A.ach(B.V)
 n.a.toString
 s=b==null?B.rU:b
 return new A.v5(new A.qO(o,s,B.a3,B.aL,m,m),m)},
-PX(a){var s,r=this,q=null,p=r.a
-p=p.e
+PX(a){var s,r=this,q=null,p=r.a,o=p.e
+p=p.dy
 s=r.gTU()
 r.a.toString
-return new A.w7(q,q,q,new A.a1a(),q,q,q,q,p,B.C3,q,q,B.zI,r.gTX(),"",q,B.HU,B.dt,q,s,q,q,B.l1,!1,!1,!1,!1,r.gTB(),!0,q,q,q,!1,new A.jz(r,t.bT))},
+return new A.w7(q,q,q,new A.a1a(),q,q,q,q,o,B.C3,q,q,B.zI,r.gTX(),p,q,B.HU,B.dt,q,s,q,q,B.l1,!1,!1,!1,!1,r.gTB(),!0,q,q,q,!1,new A.jz(r,t.bT))},
 W(a,b){var s=null,r=A.Qi(!1,!1,this.PX(b),s,s,s,!0,s,s,new A.a1b(),s,s)
 this.a.toString
 return new A.v8(B.uq,new A.lb(A.b(this.d,"_heroController"),r,s),s)}}
@@ -58517,7 +58518,7 @@ this.d=s},
 W(a,a0){var s=this,r=null,q=t.d,p=A.nf(B.T,new A.K2(800,A.a5M(A.a([B.Kr,A.Rv("assets/title.png",B.bx,r,124,r),B.jp,A.nf(r,A.Rv("assets/subtitle.png",B.bx,r,24,r),r,r,B.tU,r,r,B.xK,r),B.EK,A.abU(A.a([A.a6a(!1,!0,A.Rv("assets/google.png",B.bx,r,94,280),r,!0,r,r,r,r,r,r,r,r,r,new A.a1G(s),r),B.EJ,A.a6a(!1,!0,A.Rv("assets/apple.png",B.bx,B.cG,94,280),r,!0,r,r,r,r,r,r,r,r,r,new A.a1H(s),r)],q),B.q2,B.eR)],q),B.kn,B.q2),r),r,B.tN,r,r,r,B.ky,r),o=A.a6U("Frequently Asked Questions",A.bc(a0).ao.f,r,r),n=s.mz(a0,"How do I sign-out?"),m=s.mg(a0,"Press the profile button in the top corner, then press Account & Support and choose Sign Out."),l=s.mz(a0,"Can I delete my account?"),k=s.mg(a0,"Yes, press the profile button in the top corner, then press Account & Support and choose Delete Account. All of your user data, including your photos and chat messages, will be removed from Openup and will not be recoverable."),j=s.mz(a0,"How do I report a user?"),i=s.mg(a0,"During a call, press the 'R' symbol near the end call button and choose a reason for making the report. This will end the call and report the user. Our team will look into the report."),h=s.mz(a0,"How can I only receive calls from my friends, but not strangers?"),g=s.mg(a0,"Your friends can call you any time, but strangers can only call you while your status is posted. Your status is automatically removed after one hour. You can check if your status is still posted by looking at the bottom of the main screen of Openup. To remove your status, tap on it and press the red trash icon. "),f=s.mz(a0,"Can I choose who I talk with?"),e=s.mg(a0,"Yes, on the main screen of Openup, you can see others near you who are available to call. Simply tap one of them to call them."),d=A.a6U("Contact Us",A.bc(a0).ao.f,r,r),c=A.bc(a0),b=A.bc(a0).ao.x
 b=b==null?r:b.Yf(B.t6,B.aM)
 q=A.a5M(A.a([p,B.rV,A.r7(A.nf(r,A.a5M(A.a([o,B.jp,B.bw,n,m,B.bw,l,k,B.bw,j,i,B.bw,h,g,B.bw,f,e,B.bw,B.EL,d,B.jp,A.Ew(r,r,B.bW,!0,r,A.eV(A.a([B.Fz,A.eV(r,B.js,A.b(s.d,"_contactUsRecognizer"),b,"tarlok@hyper-pop.com"),B.FA],t.VO),r,r,c.ao.x,r),B.a7,r,r,1,B.a8),B.rV,A.r7(A.a6U("Copyright 2022 Tarlok Singh",A.bc(a0).ao.ch,r,r),r,r)],q),B.e4,B.eQ),r,B.tS,r,r,r,B.ky,r),r,r)],q),B.ko,B.eQ)
-return new A.tQ(new A.v4(A.nf(r,A.r7(A.ac0(new A.F6(!0,q,r),r),r,r),r,r,B.tT,r,r,r,r),r),r)},
+return new A.tQ(new A.v4(A.nf(r,A.r7(A.ac0(new A.F6(!0,q,r),r),r,r),r,r,B.tT,r,r,r,r),r),"Openup: Make Friends",r)},
 mz(a,b){var s=null,r="Q: "+b,q=A.bc(a).ao.x
 return A.Ew(s,s,B.bW,!0,s,A.eV(A.a([A.eV(s,s,s,q==null?s:q.Fm(B.aM),r)],t.VO),s,s,s,s),B.a7,s,s,1,B.a8)},
 mg(a,b){var s=null,r=A.bc(a).ao.x
