@@ -67,7 +67,9 @@ class _MyAppState extends State<MyApp> {
                         child: Column(
                           mainAxisAlignment: MainAxisAlignment.center,
                           children: [
-                            const _Heart(),
+                            const RepaintBoundary(
+                              child: _Heart(),
+                            ),
                             Image.asset(
                               'assets/title.png',
                               height: 124,
